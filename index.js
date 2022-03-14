@@ -286,8 +286,8 @@ Ramdani.sendMessage(from, teks, text, {quoted: mek, contextInfo: {"forwardingSco
                             itemCount : 999999999,
                             status: 1,
                             surface : 1,
-                            message: `New Base By Ramdani Official \nRp. 999.999.999`, 
-                            orderTitle: `© Creator By Ramdani Official`,
+                            message: `New Base By Dapa Bot \nRp. 999.999.999`, 
+                            orderTitle: `© Creator By Dapa Bot`,
                             thumbnail: thumb, 
                             sellerJid: '0@s.whatsapp.net',
                             contextInfo: {"forwardingScore":999,"isForwarded":true}, sendEphemeral: true}}}
@@ -298,8 +298,8 @@ const fhidetag = {key : {fromMe:false,
                             itemCount : 999999999,
                             status: 1,
                             surface : 1,
-                            message: `New Base By Ramdani Official`, 
-                            orderTitle: `© Creator By Ramdani Official`,
+                            message: `New Base By Dapa Bot Official`, 
+                            orderTitle: `© Creator By Dapa Bot Official`,
                             thumbnail: thumb, 
                             sellerJid: '0@s.whatsapp.net',
                             contextInfo: {"forwardingScore":999,"isForwarded":true}, sendEphemeral: true}}}
@@ -310,8 +310,8 @@ const ftrolMENU = {key : {fromMe:false,
                             itemCount : 999999999,
                             status: 1,
                             surface : 1,
-                            message: `New Base By Ramdani Official`, 
-                            orderTitle: `© Creator By Ramdani Official`,
+                            message: `New Base By Dapa Bot Official`, 
+                            orderTitle: `© Creator By Dapa BotOfficial`,
                             thumbnail: thumb, 
                             sellerJid: '0@s.whatsapp.net',
                             contextInfo: {"forwardingScore":999,"isForwarded":true}, sendEphemeral: true}}}
@@ -550,14 +550,14 @@ const froxx = {
                 },
 	 message: { 
 		"extendedTextMessage": {
-                 "text": `© Creator Ramdani Official`,
-                 "title": `© Creator Ramdani Official`,
+                 "text": `© Creator Dapa Bot Official`,
+                 "title": `© Creator Dapa Bot Official`,
                  'jpegThumbnail': fs.readFileSync("./media/foto/thumb.jpg"),
                         }
 	                  } 
                      }
 runi = process.uptime() 
-           Ramdani.setStatus(`Ramdani botz Aktif Selama ${(runi)} `).catch((_)=>_);
+           Ramdani.setStatus(`Dapa botz Aktif Selama ${(runi)} `).catch((_)=>_);
           settingstatus = new Date() * 1;
 const jmn = moment.tz('Asia/Jakarta').format('HH.mm')
 				let d = new Date
@@ -602,7 +602,7 @@ case 'danz':
 if (isBanned) return reply(mess.banned)
  listMsg = {
  buttonText: 'Click here',
- footerText: '© Creator By Ramdani Official',
+ footerText: '© Creator By Dapa Bot Official',
  description: `Hai Kak @${sender.split('@')[0]}👋, Silahkan Pilih Menunya Disini\nJangan Spam Ya Kak, Kasih Jeda 5 Detik!!!`,
  sections: [
                      {
@@ -730,7 +730,7 @@ case 'sm':
 if (isBanned) return reply(mess.banned)
  listMsg = {
  buttonText: 'Click here',
- footerText: '© Creator By Ramdani Official',
+ footerText: '© Creator By Dapa BotOfficial',
  description: `Hai kak @${sender.split('@')[0]}, Silahkan pilih Command nya disini`,
  sections: [
                      {
@@ -777,7 +777,7 @@ case 'topupgame':
 if (isBanned) return reply(mess.banned)
  listMsg = {
  buttonText: 'Click here',
- footerText: '© Creator By Ramdani Official',
+ footerText: '© Creator By Dapa Bot Official',
  description: `Hai kak @${sender.split('@')[0]}, Silahkan pilih Game nya disini`,
  sections: [
                      {
@@ -814,7 +814,7 @@ case 'topupsaldo':
 if (isBanned) return reply(mess.banned)
  listMsg = {
  buttonText: 'Click here',
- footerText: '© Creator By Ramdani Official',
+ footerText: '© Creator By Dapa Bot Official',
  description: `Hai kak @${sender.split('@')[0]}, Silahkan pilih Aplikasi nya disini`,
  sections: [
                      {
@@ -850,7 +850,6 @@ break
 case 'allmenu':
 reply(`*hallo kak👋 ${pushname} ${ucapanWaktu}*
 notes = Jangan spam ya kak, kasih jeda 5 detik agar bot tidak delay, okeh kak?
-Bot ini masih baru ngab, banyak fitur2 yg error kek nya 🗿 kalo mau gak error, bikin sendiri aja!!!
 
 
 
@@ -1143,7 +1142,7 @@ break
 					case 'rules':
 					Ramdani.sendMessage(from, rules(prefix, namabot, namaowner), text)
 					break
-					case 'tnc':
+					 'tnc':
 					Ramdani.sendMessage(from, tnc(prefix, namabot, namaowner), text)
 					break
 				case 'bingungcok':
@@ -1211,7 +1210,7 @@ reply(`*💎DIAMOND ML💎*
 2700💎=Rp.570.000
  
 ➖➖➖➖➖➖➖➖➖➖➖
- *_© Creator By Ramdani Official_*    
+ *_© Creator By Dapa Bot Official_*    
 ➖➖➖➖➖➖➖➖➖➖➖`)
 break
 case 'topupff':
@@ -1241,7 +1240,7 @@ MM : 28.000
 MB  : 140.000
  
 ➖➖➖➖➖➖➖➖➖➖➖
- *_©Creator by Ramdani Official_*    
+ *_©Creator by Dapa Bot Official_*    
 ➖➖➖➖➖➖➖➖➖➖➖`)
 break
 case 'topuppubg':
@@ -1252,7 +1251,7 @@ reply(`➖➖➖➖➖➖➖➖➖➖➖
 - 🎟️240 = Rp56.000
  
 ➖➖➖➖➖➖➖➖➖➖➖
- *_©Creator By Ramdani Official_*    
+ *_©Creator By Dapa Bot Official_*    
 ➖➖➖➖➖➖➖➖➖➖➖`)
 break
 case 'topupb':
@@ -1262,7 +1261,7 @@ reply(`*🎟️POINT BLANK🎟️*
 _tidak tersedia, ke Indomaret Sono_
  
 ➖➖➖➖➖➖➖➖➖➖➖
- *_© Creator By Ramdani Official_*    
+ *_© Creator By Dapa Bot Official_*    
 ➖➖➖➖➖➖➖➖➖➖➖`)
 break
 case 'topupgopay':
@@ -1293,7 +1292,7 @@ break
 case 'intagram':
 case 'ig':
 case 'ige':
-reply(`*nih Instagram creator, jan lupa follow ya*\nhttps://www.instagram.com/muhammadramdani196453`)
+reply(`*nih Instagram creator, jan lupa follow ya*\nhttps://www.instagram.com/ariff4you_`)
 break
 //OWNER/CREATOR
 //OWNER
@@ -1334,7 +1333,7 @@ case 'thanksto':
 case 'tqto':
 case 'tqtq':
 reply(`• *BIG THANKS TO*
-• RAMDANI OFFICIAL (ME)
+• RAMDANI OFFICIAL
 • ARUL (MY GURU)
 • MHANKBARBAR (MASTAH)
 • APRILIA
@@ -1649,9 +1648,9 @@ case 'script':
 if (isBanned) return reply(mess.banned)
 reply(`*⌜ Script Bot ⌟* 
 • SC ORI : Ramdani Official
-• RECODE : Ramdani Official
-• LINK DOWN VIA GIT : https://github.com/Ramdaniofficial/v13
-• LINK DOWN VIA YT : https://youtube.com/channel/UCB157jomCne961WzYHpG4gg`)
+• RECODE : Dapa Botz
+• LINK DOWN VIA GIT : https://github.com/
+• LINK DOWN VIA YT : https://youtube.com/`)
 break
 //ASUPAN MENU
 case 'asupangeayubi':
