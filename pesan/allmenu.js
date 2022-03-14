@@ -1,5 +1,5 @@
 const allmenu = (prefix) => { 
-	return `*hallo kak ,* jangan spam ya kak, kasih jeda 5 detik agar bot tidak delay!, okeh kak?
+	return `*hallo kak ,* jangan spam ya kak, kasih jeda 5 detik agar bot tidak delay!,
 
 *⌜ Grup Menu ⌟* 
 • ${prefix}welcome <enable/disable>
